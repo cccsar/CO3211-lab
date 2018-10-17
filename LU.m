@@ -1,7 +1,7 @@
 function A = LU(A)
 
   [m,n] = size(A);
-  for k=1:1:n
+  for k=2:1:n
     for i=k:1:n
       alpha = A(i,k-1)/A(k-1,k-1);
       A(i,k-1) = alpha;
