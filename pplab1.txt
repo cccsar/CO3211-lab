@@ -1,0 +1,6 @@
+consistencia: que se verifique la igualdad x=Hx+C
+convergencia: que se verifique x^(i)=x
+Jacobi: 
+	A=D-E-F
+	  \-tril-triu
+
